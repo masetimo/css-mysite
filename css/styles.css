@@ -1,0 +1,138 @@
+body {
+  color: #355C7D;
+  margin: 0;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #6C5B7B;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #9896F1;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.toph2{
+  color: #6C5B7B;
+}
+h3 {
+  color: #C06C84;
+}
+
+a {
+  color: #C06C84;
+  font-family: 'Montserrat', sans-serif;
+  margin:5px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #F67280;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+  margin:100px 0;
+}
+
+.bottom-container {
+  background-color:   #6C5B7B;
+  padding: 40px 0 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.skill-row{
+
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 1.25rem;
+}
+
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 1.25rem;
+}
+
+.profile-img {
+  height: 250px;
+  width: 250px;
+}
+p{
+  line-height: 2;
+}
+.profile{
+  width: 30%;
+margin:0 auto;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-width: 7px;
+  border-top-style: dotted;
+  width: 10%;
+  margin: 100px auto;
+}
+.contact-message{
+  width:40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #F67280;
+  background-image: -webkit-linear-gradient(top, #F67280, #C06C84);
+  background-image: -moz-linear-gradient(top, #F67280, #C06C84);
+  background-image: -ms-linear-gradient(top, #F67280, #C06C84);
+  background-image: -o-linear-gradient(top, #F67280, #C06C84);
+  background-image: linear-gradient(to bottom, #F67280, #C06C84);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #6C5B7B;
+  background-image: -webkit-linear-gradient(top, #6C5B7B, #355C7D);
+  background-image: -moz-linear-gradient(top, #6C5B7B, #355C7D);
+  background-image: -ms-linear-gradient(top, #6C5B7B, #355C7D);
+  background-image: -o-linear-gradient(top, #6C5B7B, #355C7D);
+  background-image: linear-gradient(to bottom, #6C5B7B, #355C7D);
+  text-decoration: none;
+}
